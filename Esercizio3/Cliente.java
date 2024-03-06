@@ -1,10 +1,10 @@
 package Esercizio3;
 
 public class Cliente {
-    int codicecliente;
-    String nomeECognome;
-    String email;
-    String dataIscrizione;
+    private int codicecliente;
+    private String nomeECognome;
+    private String email;
+    private String dataIscrizione;
 
     public Cliente(int codicecliente, String nomeECognome, String email, String dataIscrizione) {
 
